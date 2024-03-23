@@ -12,7 +12,7 @@ import {
     AlertDialogHeader,
     AlertDialogTitle,
     AlertDialogTrigger,
-} from "@/Components/ui/alert-dialog"
+} from "@/components/ui/alert-dialog"
 
 const Logout = () => {
     return (
