@@ -17,10 +17,10 @@ export default async function sendEmail() {
           const info = await transport.sendMail({
             from: 'info@talentcornertaskmanager.com',
             to: "me@gmail.com",
-            bcc:["yashkalia4215@gmail.com","veerendragumate@gmail.com"],
+            bcc:["veerendragumate@gmail.com","veerendraforwork@gmail.com"],
             subject: "Test Email: This is a Test Message ✔",
             text: "This is a test email message to check the email sending functionality.",
-            html: "<p>This is a <b>test email message</b> to check the email sending functionality via <B>CRON JOBS</B></p>",
+            html: "<p><B>CRON JOBS via Vercel.json(NEXT_AUTH PROJECT)</B></p>",
         });
 
         console.log("Message sent: %s", info.messageId);
