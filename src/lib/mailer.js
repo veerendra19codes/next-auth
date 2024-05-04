@@ -4,6 +4,7 @@ import nodemailer from 'nodemailer';
 
 export default async function sendEmail() {
     try {
+      console.log("cronjob hit")
         var transport = nodemailer.createTransport({
             host: "bulk.smtp.mailtrap.io",
             port: 587,
