@@ -3,6 +3,7 @@
 import nodemailer from 'nodemailer';
 
 export default async function sendEmail() {
+  console.log("inside sendEmail")
     try {
       console.log("cronjob hit")
         var transport = nodemailer.createTransport({
